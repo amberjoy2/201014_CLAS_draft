@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../css/jspsych.css"></link>
   <style>
     img {
-      width: 300px;
+      width: 700px;
     }
   </style>
 </head>
@@ -15,34 +15,183 @@
 
   var trial_1 = {
     type: 'image-slider-response',
-    stimulus: 'img/happy_face_1.jpg',
-    labels: ['1 (least happy)', '100 (most happy)'],
-    slider_width: 500,
+    stimulus: 'img/Symbolic1.jpg',
+    labels: ['', ''],
+    slider_width: 480,
     require_movement: true,
-    prompt: '<p>How happy is this person on a scale of 1-100?</p>'
+    prompt: '<p>Where on the line does this image belong?</p>'
   }
 
   var trial_2 = {
     type: 'image-slider-response',
-    stimulus: 'img/happy_face_2.jpg',
-    labels: ['1 (least happy)', '100 (most happy)'],
-    start: 80,
-    slider_width: 500,
-    prompt: '<p>How happy is this person on a scale of 1-100? (5s time limit; set start value)</p>',
-    trial_duration: 5000
+    stimulus: 'img/Symbolic2.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
   }
 
   var trial_3 = {
     type: 'image-slider-response',
-    stimulus: 'img/happy_face_2.jpg',
-    labels: ['1 (least happy)', '100 (most happy)'],
-    slider_width: 500,
-    prompt: '<p>How happy is this person on a scale of 1-100? (1s stimulus duration)</p>',
-    stimulus_duration: 1000
+    stimulus: 'img/Symbolic3.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
   }
 
+  var trial_4 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic4.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_5 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic5.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_6 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic6.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_7 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic7.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_8 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic8.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_9 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic9.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_10 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic10.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+  var trial_11 = {
+    type: 'image-slider-response',
+    stimulus: 'img/Symbolic11.jpg',
+    labels: ['', ''],
+    slider_width: 480,
+    prompt: '<p>Where on the line does this image belong?</p>',
+  }
+
+    var trial_12 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic1.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_13 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic2.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_14 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic3.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_15 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic4.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_16 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic5.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_17 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic6.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_18 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic7.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_19 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic8.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_20 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic9.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_21 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic10.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
+    var trial_22 = {
+      type: 'image-slider-response',
+      stimulus: 'img/Nonsymbolic11.jpg',
+      labels: ['', ''],
+      slider_width: 480,
+      prompt: '<p>Where on the line does this image belong?</p>',
+    }
+
   jsPsych.init({
-    timeline: [trial_1, trial_2, trial_3],
+    timeline: [trial_1, trial_2, trial_3, trial_4, trial_5, trial_6, trial_7, trial_8, trial_9, trial_10, trial_11, trial_12, trial_13, trial_14, trial_15, trial_16, trial_17, trial_18, trial_19, trial_20, trial_21, trial_22],
     on_finish: function() {
       jsPsych.data.displayData();
     },
